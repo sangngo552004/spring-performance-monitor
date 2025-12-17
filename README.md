@@ -101,9 +101,9 @@ mvn spring-boot:run
 
 Generate some data:
 
-S
+success: http://localhost:8080/process?id=123
 
-success: http://localhost:8080/process?id=123ailure: http://localhost:8080/create?name=abc
+Failure: http://localhost:8080/create?name=abc
  (triggers short name error)
 
-CheCheck metrics: http://localhost:8080/actuator/prometheus
+Check metrics: http://localhost:8080/actuator/prometheus
